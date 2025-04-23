@@ -182,10 +182,16 @@
             const storedPassword = localStorage.getItem('password');
     
             // التحقق من صحة اسم المستخدم وكلمة المرور
-            if (enteredUsername === storedUsername && enteredPassword === storedPassword) {
+            if (enteredUsername ===  'st22766531' && enteredPassword ===  '1118894698') {
                 alert('تم تسجيل الدخول بنجاح');
                 // تحويل الطالب إلى صفحة st.html بعد التحقق الناجح
                 window.location.href = "stud.html";
+            } 
+            
+            if (enteredUsername ===  'st21946119' && enteredPassword ===  '1132129121') {
+                alert('تم تسجيل الدخول بنجاح');
+                // تحويل الطالب إلى صفحة st.html بعد التحقق الناجح
+                window.location.href = "studS.html";
             } else {
                 alert('خطأ في اسم المستخدم أو كلمة المرور');
             }
